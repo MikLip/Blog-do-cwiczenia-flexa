@@ -30,14 +30,14 @@ header .top-banner {
 }
 
 .container {
-  width: 1160px;
+  width: 80%;
   height: auto;
   margin: 0 auto;
 }
 
 .flexbox {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 /* ///////////------ TOP NAVIGATION BELOW--------////////////*/
