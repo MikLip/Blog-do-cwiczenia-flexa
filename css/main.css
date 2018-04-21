@@ -1,0 +1,219 @@
+/* ///////////------ GENERAL STYLES BELOW--------////////////*/
+
+body {
+  background-color: #fff;
+  padding: 0 0;
+  margin: 0 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+div {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+header {
+  height: auto;
+  width: 100%;
+}
+
+nav {
+  width: 60%;
+  height: 80px;
+  background-color: #fff;
+}
+
+header .top-banner {
+  width: 100%;
+  height: 300px;
+  background-color: violet;
+}
+
+.container {
+  width: 1160px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+/* ///////////------ TOP NAVIGATION BELOW--------////////////*/
+
+.logo {
+  width: 10%;
+  min-width: 150px;
+}
+
+.search-box {
+  width: 33%;
+  height: 100%;
+  padding: auto 0;
+  margin: auto 0;
+  justify-content: flex-end;
+}
+
+.search-box > input {
+  float: right;
+  width: 80%;
+  height: 30px;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.search-box > div {
+  margin: 0 0 0 6.5px;
+}
+
+.search-box > div > img {
+  margin: 5px 0;
+  border: 1px solid transparent;
+  border-radius: 20% 20%;
+}
+
+.search-box > div > img:hover {
+  border: 1px solid violet;
+  border-radius: 20% 20%;
+  box-shadow: 0 0 6px 2px violet;
+}
+
+ul:first-of-type {
+  justify-content: flex-end;
+  height: 100%;
+  margin: 0 0;
+  padding: 20px 0;
+}
+
+ul.top-nav > li {
+  display: inline-block;
+  min-width: 100px;
+  height: 100%;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+}
+
+ul.top-nav > li:hover {
+  background-color: violet;
+  color: #fff;
+  position: relative;
+}
+
+ul.top-nav > li:hover::after {
+  margin: 0 auto;
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: 28%;
+}
+
+/* ///////////------ MAIN BANNER STYLES BELOW--------////////////*/
+
+.top-banner {
+  position: relative;
+}
+
+.top-banner > h1 {
+  color: #fff;
+  font-size: 28px;
+  position: absolute;
+  left: 50%;
+  top: 200px;
+}
+
+.top-banner > h1::after {
+  margin-top: 10px;
+  width: 100%;
+  height: 5px;
+  background-color: #c82cf7;
+  content: '';
+  position: absolute;
+}
+
+.filter-bar > ul {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  padding: 0 0;
+}
+
+.filter-bar > ul li {
+  display: inline-block;
+  width: 25%;
+  min-width: 100px;
+  height: 100%;
+  min-height: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.filter-bar > ul li:hover {
+  background-color: violet;
+  color: #fff;
+  border-radius:0 0 5px 5px;
+  height: 50%;
+  top: 20px;
+}
+
+/* ///////////------ NEWS SECTION STYLES BELOW--------////////////*/
+
+.news-section {
+  margin-top: 10px;
+}
+
+.single-news {
+  flex: 30%;
+  height: auto;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  margin: 0 1.5%;
+  box-shadow: 0 0 3px 2px grey;
+  border: 2px solid transparent;
+}
+
+.single-news:hover {
+  border: 2px solid violet;
+}
+
+.single-news-txt {
+  padding: 10px 8px;
+}
+
+.single-news-txt > h2 {
+  color: #473f49;
+  margin: 5px 5px;
+}
+
+.single-news-txt > p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.single-news > a {
+  background-color: violet;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px 5px;
+  border: 1px solid transparent;
+  padding: auto 10px;
+  margin: 0 5px 5px 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  float: right;
+}
+
+.single-news > a:hover {
+  background-color: #fff;
+  color: violet;
+  border: 1px solid violet;
+  box-shadow: 0 0 2px 2px violet;
+}
